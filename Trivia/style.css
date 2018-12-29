@@ -1,0 +1,43 @@
+/*CSS reset settings here*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	font-family: 'Lato', sans-serif; 
+	background-size: cover; 
+	background-color:#00cec9; 
+	color: #333;
+}
+#wrapper {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	height:700px;
+}
+h1 {
+	padding: 40px;
+	text-align: center;
+	color: #222;
+}
+
+button {
+	text-transform: uppercase;
+	background-color: #1A73E8;
+	color: #fff;
+	padding: 20px 40px;
+	font-size: 1.2em;
+}
+.question_item {
+	padding: 20px;
+	margin-bottom: 10px;
+	background: rgb(255, 255, 255) transparent;
+	background: rgba(255, 255, 255, 0.5);
+}
+li {
+	list-style: none;
+}
+
+span {
+	padding:10px 20px;
+}

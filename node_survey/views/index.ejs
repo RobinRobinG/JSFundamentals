@@ -1,0 +1,22 @@
+<h1>A Dojo Survey</h1>
+<form action='/addSurvey' method='post'>
+    Your Name: <input type="text" name='name'>
+    <br>
+    Dojo Location: 
+    <select name='location'>
+        <% for (var i = 0; i<data.location.length; i++){ %>
+        <option value='<%= data.location[i] %>'><%= data.location[i] %></option>
+        <% } %>
+    </select>
+    <br>
+    Favrite Language: 
+    <select name='language'>
+        <% for (var i = 0; i<data.language.length; i++){ %>
+        <option value='<%= data.language[i] %>'><%= data.language[i] %></option>
+        <% } %>
+    </select>
+    <br>
+    Comment(optional): <input type='textarea' name='comment'>
+    <br>
+    <input type='submit' value='Submit'>
+</form>

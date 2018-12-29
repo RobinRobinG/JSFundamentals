@@ -1,0 +1,33 @@
+/*CSS reset settings here*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	font-family: 'Lato', sans-serif; 
+	background-size: cover; 
+	background-color:#fff; 
+	color: #333;
+}
+#wrapper {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	height:700px;
+}
+h1 {
+	padding: 40px;
+	text-align: center;
+	color: #222;
+}
+
+ul li {
+	display: inline;
+}
+
+img {
+	width: 24%;
+}
+#details {
+	border: 1px soild #000;
+}
